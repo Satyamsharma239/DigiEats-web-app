@@ -1,0 +1,162 @@
+[
+  {
+    "_id": "69a1291669ea25f4cc0a3194",
+    "name": "Veg Triple rice",
+    "image": "https://res.cloudinary.com/djzm07tmg/image/upload/v1772169492/skrx5w8fwq9w8mfdjm74.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "Chinese",
+    "price": 99,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "createdAt": "2026-02-27T05:18:14.701Z",
+    "updatedAt": "2026-02-27T05:18:14.701Z",
+    "__v": 0
+  },
+  {
+    "_id": "69a02c67b98199de3c564f66",
+    "name": "Veg Manchurian",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Veg_Manchurian.jpg/640px-Veg_Manchurian.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "Chinese",
+    "price": 160,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.092Z",
+    "updatedAt": "2026-02-26T11:29:44.429Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f69",
+    "name": "Mango Lassi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mango_Lassi.jpg/640px-Mango_Lassi.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "Others",
+    "price": 90,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.092Z",
+    "updatedAt": "2026-02-26T11:29:45.442Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f68",
+    "name": "Gulab Jamun (2 pcs)",
+    "image": "https://images.unsplash.com/photo-1599598425947-33002621eea9?auto=format&fit=crop&q=80&w=800",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "Desserts",
+    "price": 60,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.092Z",
+    "updatedAt": "2026-02-26T11:29:45.098Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f67",
+    "name": "Hakka Noodles",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_Mia_Hakka_Noodles.jpg/640px-Mama_Mia_Hakka_Noodles.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "Chinese",
+    "price": 140,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.092Z",
+    "updatedAt": "2026-02-26T11:29:44.772Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f64",
+    "name": "Masala Dosa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Dosa_at_a_street_food_stall.jpg/640px-Dosa_at_a_street_food_stall.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "South Indian",
+    "price": 120,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.091Z",
+    "updatedAt": "2026-02-26T11:29:44.043Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f65",
+    "name": "Idli Sambar",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Idli_Sambar_01.jpg/640px-Idli_Sambar_01.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "South Indian",
+    "price": 80,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.091Z",
+    "updatedAt": "2026-02-26T11:29:44.359Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f62",
+    "name": "Dal Makhani",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dal_Makhani_%281%29.jpg/640px-Dal_Makhani_%281%29.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "North Indian",
+    "price": 180,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.091Z",
+    "updatedAt": "2026-02-26T11:29:43.258Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f63",
+    "name": "Veg Kadai",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mix_veg_curry.jpg/640px-Mix_veg_curry.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "North Indian",
+    "price": 210,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.091Z",
+    "updatedAt": "2026-02-26T11:29:43.628Z"
+  },
+  {
+    "_id": "69a02c67b98199de3c564f61",
+    "name": "Paneer Butter Masala",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Paneer_Butter_Masala_or_Paneer_Makhani.jpg",
+    "shop": "6996d2dadd0e4ffc702de04f",
+    "category": "North Indian",
+    "price": 250,
+    "foodType": "veg",
+    "rating": {
+      "average": 0,
+      "count": 0
+    },
+    "__v": 0,
+    "createdAt": "2026-02-26T11:20:07.087Z",
+    "updatedAt": "2026-02-26T11:29:39.966Z"
+  }
+]
