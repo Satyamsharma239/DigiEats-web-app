@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Nav from './NaV.JSX'
+import Nav from './Nav.jsx';
 import { useSelector } from 'react-redux'
 import { FaUtensils, FaMapMarkerAlt, FaPlus, FaCamera, FaChartLine, FaShoppingBag, FaWallet } from "react-icons/fa";
 import { FaPen } from "react-icons/fa6";
