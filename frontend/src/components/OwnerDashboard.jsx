@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { FaUtensils, FaMapMarkerAlt, FaPlus, FaCamera, FaChartLine, FaShoppingBag, FaWallet } from "react-icons/fa";
 import { FaPen } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
-import OwnerItemCard from './ownerItemCard';
+import OwnerItemCard from './OwnerItemCard';
 import axios from 'axios';
 import { serverUrl } from '../App';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
