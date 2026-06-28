@@ -2,10 +2,41 @@
 
 This is the user-facing frontend for the DigiEats platform, built using React, Vite, Redux Toolkit, TailwindCSS, Socket.io, and Leaflet Maps. 
 
-The frontend contains **three integrated portals** inside a single React application, resolved dynamically based on the logged-in user's role:
-1. 🍕 **Customer Portal** - For discovering nearby restaurants, managing the shopping cart, checking out via Razorpay, and tracking deliveries live.
-2. 🏪 **Restaurant Owner Portal** - For onboarding food outlets, setting locations on interactive Leaflet maps, and performing menu CRUD operations.
-3. 🚴 **Delivery Partner Portal** - For receiving assigned orders, viewing directions, and updating order status.
+The frontend contains **three integrated portals** inside a single React application, resolved dynamically using the user's role:
+1. 🍕 **Customer Portal** - For discovering restaurants, adding food to a cart, checking out via Razorpay, and tracking deliveries live.
+2. 🏪 **Restaurant Owner Portal** - For managing restaurant info, setting physical geolocations via drag-and-drop maps, and managing the food menu.
+3. 🚴 **Delivery Partner Portal** - For receiving assigned orders and updating order delivery statuses.
+
+---
+
+## 📸 Modules & Interface Screenshots
+
+### 1. Customer Experience
+| Store Discover (Proximity Based) | Menu Selection |
+|:---:|:---:|
+| ![Customer Home](../.github/assets/customer_home.png) | ![Shop View](../.github/assets/customer_shop_view.png) |
+
+| Shopping Cart | My Orders (History) |
+|:---:|:---:|
+| ![Cart View](../.github/assets/customer_cart.png) | ![Orders History](../.github/assets/customer_orders.png) |
+
+---
+
+### 2. Restaurant Owner Experience
+| Register Restaurant Form | Add Menu Item |
+|:---:|:---:|
+| ![Register Restaurant](../.github/assets/owner_register_shop.png) | ![Add Item](../.github/assets/owner_add_item.png) |
+
+| Empty Dashboard (CTA) | Active Owner Dashboard |
+|:---:|:---:|
+| ![Owner Dashboard](../.github/assets/owner_dashboard.png) | ![Active Dashboard](../.github/assets/owner_dashboard_active.png) |
+
+---
+
+### 3. Delivery Partner Experience
+| Delivery Dashboard |
+|:---:|
+| ![Delivery Dashboard](../.github/assets/delivery_dashboard.png) |
 
 ---
 
@@ -13,11 +44,11 @@ The frontend contains **three integrated portals** inside a single React applica
 
 - **Build Tool**: Vite (Ultra-fast HMR and bundling)
 - **Framework**: React 19
-- **State Management**: Redux Toolkit & React-Redux (maintains user, cart, owner, and order state)
+- **State Management**: Redux Toolkit & React-Redux (maintains user state, cart state, active shop data, order logs)
 - **Routing**: React Router DOM (Declarative client-side routing)
 - **Styles**: TailwindCSS (Utility-first responsive styling)
-- **Maps**: Leaflet & React Leaflet (geocoding via OpenStreetMap/Nominatim)
-- **Real-time Communication**: Socket.io-client (syncs live delivery partner coordinate positions)
+- **Maps**: Leaflet & React Leaflet (pins delivery locations, handles reverse geocoding via Nominatim API)
+- **Real-time Communication**: Socket.io-client (syncs live delivery partner coordinate positions and status updates)
 - **Notification**: React Hot Toast (sleek, non-blocking toast notifications)
 
 ---
