@@ -28,7 +28,7 @@ import Footer from './components/Footer'
 import Info from './pages/Info'
 import { Toaster } from 'react-hot-toast'
 
-export const serverUrl = "http://localhost:8082"
+export const serverUrl = "https://digieats-web-app.onrender.com"
 function App() {
   const { userData } = useSelector(state => state.user)
   const dispatch = useDispatch()
