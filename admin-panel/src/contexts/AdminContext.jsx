@@ -8,7 +8,7 @@ export const AdminProvider = ({ children }) => {
     const [token, setToken] = useState(localStorage.getItem("adminToken") || null);
     const [loading, setLoading] = useState(true);
 
-    const backendUrl = "http://localhost:8082/api/admin";
+    const backendUrl = "https://digieats-web-app.onrender.com/api/admin";
 
     useEffect(() => {
         if (token) {
