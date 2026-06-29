@@ -1,5 +1,7 @@
 # 🍔 DigiEats - Premium Food Delivery Platform
 
+🚀 **Live Demo**: [digieats-web.netlify.app](https://digieats-web.netlify.app)
+
 DigiEats is a comprehensive, production-grade food delivery application built using the modern MERN stack (MongoDB, Express, React, Node.js). The platform is split into four specialized modules: a **Customer Web App**, a **Restaurant Owner Dashboard**, a **Delivery Partner Interface**, and a central **Super Admin Panel**.
 
 With real-time order tracking, socket connections, interactive map integrations, and role-based permissions, DigiEats offers a seamless end-to-end food ordering and delivery ecosystem.

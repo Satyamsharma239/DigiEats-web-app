@@ -1,5 +1,7 @@
 # 📱 DigiEats Frontend Web Application
 
+🚀 **Live Demo**: [digieats-web.netlify.app](https://digieats-web.netlify.app)
+
 This is the user-facing frontend for the DigiEats platform, built using React, Vite, Redux Toolkit, TailwindCSS, Socket.io, and Leaflet Maps. 
 
 The frontend contains **three integrated portals** inside a single React application, resolved dynamically using the user's role:
